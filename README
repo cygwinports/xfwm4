@@ -1,0 +1,185 @@
+xfwm4
+------------------------------------------
+Xfce4 window manager
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.11-1
+  glib2-2.12.11-1
+  gtk2-x11-2.10.11-1
+  libX11_6-1.1.1-1
+  libXext6-1.0.2-1
+  libXrandr2-1.1.2-1
+  libXrender1-0.9.2-1
+  libintl8-0.15-1
+  libxfce4mcs-4.4.1-1
+  libxfce4util-4.4.1-1
+  libxfcegui4-4.4.1-1
+  pango-1.14.10-1
+  startup-notification-0.8-1
+  xfce-mcs-manager-4.4.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+  xfce4-dev-tools-4.4.0-1
+
+Canonical website:
+  http://www.xfce.org/
+
+Canonical download:
+  http://www.xfce.org/archive/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xfwm4-4.4.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xfwm4-4.4.1-X.cygport all
+
+This will create:
+  /usr/src/xfwm4-4.4.1-X-src.tar.bz2
+  /usr/src/xfwm4-4.4.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/xfwm4.sh
+  /usr/bin/xfwm4.exe
+  /usr/lib/xfce4/mcs-plugins/wmtweaks_plugin.dll
+  /usr/lib/xfce4/mcs-plugins/wmtweaks_plugin.la
+  /usr/lib/xfce4/mcs-plugins/workspaces_plugin.dll
+  /usr/lib/xfce4/mcs-plugins/workspaces_plugin.la
+  /usr/lib/xfce4/mcs-plugins/xfwm4_plugin.dll
+  /usr/lib/xfce4/mcs-plugins/xfwm4_plugin.la
+  /usr/share/applications/xfce-wm-settings.desktop
+  /usr/share/applications/xfce-wmtweaks-settings.desktop
+  /usr/share/applications/xfce-workspaces-settings.desktop
+  /usr/share/doc/Cygwin/xfwm4-4.4.1.README
+  /usr/share/doc/xfwm4-4.4.1/AUTHORS
+  /usr/share/doc/xfwm4-4.4.1/COPYING
+  /usr/share/doc/xfwm4-4.4.1/ChangeLog
+  /usr/share/doc/xfwm4-4.4.1/INSTALL
+  /usr/share/doc/xfwm4-4.4.1/NEWS
+  /usr/share/doc/xfwm4-4.4.1/README
+  /usr/share/doc/xfwm4-4.4.1/TODO
+  /usr/share/icons/hicolor/48x48/apps/wmtweaks.png
+  /usr/share/icons/hicolor/48x48/apps/xfce4-workspaces.png
+  /usr/share/icons/hicolor/48x48/apps/xfwm4.png
+  /usr/share/icons/hicolor/scalable/apps/wmtweaks.svg
+  /usr/share/icons/hicolor/scalable/apps/xfce4-workspaces.svg
+  /usr/share/icons/hicolor/scalable/apps/xfwm4.svg
+  /usr/share/locale/ar/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/az/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/be/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/bg/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/bn_IN/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ca/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/cs/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/de/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/dz/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/el/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/eo/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/es/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/es_MX/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/et/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/eu/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/fa/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/fi/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/fr/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/gl/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/gu/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/he/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/hi/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/hu/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/it/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ja/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ka/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ko/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/lt/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/mk/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/mr/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ms/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/nb_NO/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/nl/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/pa/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/pl/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/pt_PT/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ro/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ru/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/sk/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/sv/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/ta/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/tr/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/uk/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/vi/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/xfwm4.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/xfwm4.mo
+  /usr/share/themes/Daloa/xfwm4/*
+  /usr/share/themes/Default-4.0/xfwm4/*
+  /usr/share/themes/Default-4.2/xfwm4/*
+  /usr/share/themes/Default/xfwm4/*
+  /usr/share/themes/Katiola/xfwm4/*
+  /usr/share/themes/Kokodi/xfwm4/*
+  /usr/share/themes/Moheli/xfwm4/*
+  /usr/share/themes/Sassandra/xfwm4/*
+  /usr/share/themes/Stoneage/xfwm4/*
+  /usr/share/themes/Therapy/xfwm4/*
+  /usr/share/themes/Tyrex/xfwm4/*
+  /usr/share/themes/Wallis/xfwm4/*
+  /usr/share/xfce4/doc/C/images/compose_shortcut.png
+  /usr/share/xfce4/doc/C/images/decoration_style.png
+  /usr/share/xfce4/doc/C/images/focus.png
+  /usr/share/xfce4/doc/C/images/keyboard_shortcuts.png
+  /usr/share/xfce4/doc/C/images/misc_wm_prefs.png
+  /usr/share/xfce4/doc/C/images/titlebar.png
+  /usr/share/xfce4/doc/C/images/workspace_margins.png
+  /usr/share/xfce4/doc/C/images/xfwm_workspaces.png
+  /usr/share/xfce4/doc/C/xfwm4.html
+  /usr/share/xfce4/doc/fr/images/compose_shortcut.png
+  /usr/share/xfce4/doc/fr/images/decoration_style.png
+  /usr/share/xfce4/doc/fr/images/focus.png
+  /usr/share/xfce4/doc/fr/images/keyboard_and_focus.png
+  /usr/share/xfce4/doc/fr/images/keyboard_shortcuts.png
+  /usr/share/xfce4/doc/fr/images/misc_wm_prefs.png
+  /usr/share/xfce4/doc/fr/images/titlebar.png
+  /usr/share/xfce4/doc/fr/images/workspace_margins.png
+  /usr/share/xfce4/doc/fr/images/xfwm_workspaces.png
+  /usr/share/xfce4/doc/fr/xfwm4.html
+  /usr/share/xfce4/doc/it/images/compose_shortcut.png
+  /usr/share/xfce4/doc/it/images/decoration_style.png
+  /usr/share/xfce4/doc/it/images/focus.png
+  /usr/share/xfce4/doc/it/images/keyboard_and_focus.png
+  /usr/share/xfce4/doc/it/images/keyboard_shortcuts.png
+  /usr/share/xfce4/doc/it/images/misc_wm_prefs.png
+  /usr/share/xfce4/doc/it/images/titlebar.png
+  /usr/share/xfce4/doc/it/images/workspace_margins.png
+  /usr/share/xfce4/doc/it/images/xfwm_workspaces.png
+  /usr/share/xfce4/doc/it/xfwm4.html
+  /usr/share/xfwm4/defaults
+
+------------------
+
+Port Notes:
+
+----- version 4.4.1-1 -----
+Initial release of Xfce 4.4 for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
