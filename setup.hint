@@ -1,4 +1,4 @@
-category: Xfce
-requires: cygwin glib2 gtk2-x11 libX11_6 libXext6 libXrandr2 libXrender1 libintl8 libxfce4mcs libxfce4util libxfcegui4 pango startup-notification xfce-mcs-manager
+category: X11
+requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libdbus-glib_1_2 libglade2 libintl8 libwnck1_22 libX11_6 libXcomposite1 libXdamage1 libXext6 libxfce4util libxfcegui4 libxfconf0_0 libXfixes3 libXrandr2 libXrender1 pango startup-notification
 sdesc: "Xfce4 window manager"
 ldesc: "Xfce4 window manager"
