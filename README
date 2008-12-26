@@ -4,30 +4,31 @@ Xfce4 window manager
 
 Runtime requirements:
   cygwin-1.5.25-15
-  gdk-pixbuf2-2.12.12-1
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
-  libdbus-glib_1_2-0.76-1
-  libglade2-2.6.3-1
+  libdbus-glib_1_2-0.78-1
+  libgdk_pixbuf2.0_0-2.14.6-1
+  libglade2.0_0-2.6.3-2
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.6-1
   libintl8-0.17-1
-  libwnck1_22-2.22.3-1
+  libpango1.0_0-1.22.4-1
+  libstartup-notification1_0-0.9-2
+  libwnck1_22-2.24.2-1
   libX11_6-1.1.5-1
   libXcomposite1-0.4.0-1
   libXdamage1-1.1.1-2
   libXext6-1.0.4-1
-  libxfce4util-4.5.91-1
-  libxfcegui4-4.5.91-1
-  libxfconf0_0-4.5.9-1
+  libxfce4util4-4.5.92-1
+  libxfcegui4_4-4.5.92-1
+  libxfce4kbd-private4-4.5.92-1
+  libxfconf0_2-4.5.92-1
   libXfixes3-4.0.3-2
   libXrandr2-1.2.3-1
   libXrender1-0.9.4-2
-  pango-1.20.5-1
-  startup-notification-0.9-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
   cygport-0.4.3-1
   gawk-3.1.6-1
@@ -36,7 +37,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.91-1
+  xfce4-dev-tools-4.5.92-1
 
 Canonical website:
   http://www.xfce.org/
@@ -47,15 +48,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfwm4-4.5.91-X-src.tar.bz2
+  unpack xfwm4-4.5.92-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfwm4-4.5.91-X.cygport all
+  cygport ./xfwm4-4.5.92-X.cygport all
 
 This will create:
-  /usr/src/xfwm4-4.5.91-X-src.tar.bz2
-  /usr/src/xfwm4-4.5.91-X.tar.bz2
+  /usr/src/xfwm4-4.5.92-X-src.tar.bz2
+  /usr/src/xfwm4-4.5.92-X.tar.bz2
 
 -------------------------------------------
 
@@ -70,13 +71,13 @@ Files included in the binary package:
   /usr/share/applications/xfce-wm-settings.desktop
   /usr/share/applications/xfce-wmtweaks-settings.desktop
   /usr/share/applications/xfce-workspaces-settings.desktop
-  /usr/share/doc/xfwm4-4.5.91/AUTHORS
-  /usr/share/doc/xfwm4-4.5.91/COPYING
-  /usr/share/doc/xfwm4-4.5.91/ChangeLog
-  /usr/share/doc/xfwm4-4.5.91/INSTALL
-  /usr/share/doc/xfwm4-4.5.91/NEWS
-  /usr/share/doc/xfwm4-4.5.91/README
-  /usr/share/doc/xfwm4-4.5.91/TODO
+  /usr/share/doc/xfwm4-4.5.92/AUTHORS
+  /usr/share/doc/xfwm4-4.5.92/COPYING
+  /usr/share/doc/xfwm4-4.5.92/ChangeLog
+  /usr/share/doc/xfwm4-4.5.92/INSTALL
+  /usr/share/doc/xfwm4-4.5.92/NEWS
+  /usr/share/doc/xfwm4-4.5.92/README
+  /usr/share/doc/xfwm4-4.5.92/TODO
   /usr/share/icons/hicolor/48x48/apps/wmtweaks.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-workspaces.png
   /usr/share/icons/hicolor/48x48/apps/xfwm4.png
@@ -184,8 +185,11 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 4.5.91-1 -----
+----- version 4.5.92-1 -----
 Version bump for 4.6-beta2.
+
+----- version 4.5.91-1 -----
+Version bump for 4.6-beta1.
 
 ----- version 4.4.1-1 -----
 Initial release of Xfce 4.4 for Cygwin.
