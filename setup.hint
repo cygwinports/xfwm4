@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libdbus-glib_1_2 libglade2.0_0 libintl8 libwnck1_22 libX11_6 libXcomposite1 libXdamage1 libXext6 libxfce4util4 libxfce4kbd-private4 libxfcegui4_4 libxfconf0_2 libXfixes3 libXrandr2 libXrender1 libpango1.0_0 libstartup-notification1_0
+requires: cygwin libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libdbus-glib_1_2 libglade2.0_0 libintl8 libwnck1_22 libX11_6 libXcomposite1 libXdamage1 libXext6 libxfce4util4 libxfce4kbd-private5 libxfcegui4_4 libxfconf0_2 libXfixes3 libXrandr2 libXrender1 libpango1.0_0 libstartup-notification1_0
 sdesc: "Xfce4 window manager"
 ldesc: "Xfce4 window manager"
