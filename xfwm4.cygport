@@ -1,0 +1,8 @@
+inherit xfce4
+
+NAME="xfwm4"
+VERSION=4.10.1
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Xfce4 window manager"
+DESCRIPTION="Xfce4 window manager"

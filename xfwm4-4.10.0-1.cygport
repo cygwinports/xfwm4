@@ -1,5 +1,0 @@
-inherit xfce4
-
-DESCRIPTION="Xfce4 Window Manager"
-
-CYGCONF_ARGS="--libexecdir=/usr/lib"

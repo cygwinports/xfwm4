@@ -1,4 +1,0 @@
-category: Xfce
-requires: libdbus-glib_1_2 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libpango1.0_0 libstartup-notification1_0 libwnck1_22 libX11_6 libXcomposite1 libXdamage1 libXext6 libxfce4util6 libxfce4kbd-private2_0 libxfce4ui1_0 libxfconf0_2 libXfixes3 libXrandr2 libXrender1
-sdesc: "Xfce4 window manager"
-ldesc: "Xfce4 window manager"
